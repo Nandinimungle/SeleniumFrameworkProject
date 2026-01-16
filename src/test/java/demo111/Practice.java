@@ -1,8 +1,11 @@
 package demo111;
 
-public class Practice {
+import org.testng.annotations.Test;
 
+public class Practice {
+@Test
 	public void m1() {
 		System.out.println("hello");
+		System.out.println("hi Github");
 	}
 }
